@@ -12,21 +12,53 @@
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
         }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
         p {
             color: #666;
-            max-width: 600px;
-            margin: 20px auto;
+            margin: 10px 0;
+        }
+        .contact-info {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to Our Site</h1>
-    <p>This is a simple welcome page. We'll be adding more content soon!</p>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of professionals committed to delivering excellence in everything we do. Our mission is to provide innovative solutions that make a difference in people's lives.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services including:</p>
+        <p>- Web Development</p>
+        <p>- Digital Marketing</p>
+        <p>- Content Creation</p>
+        <p>- Business Consulting</p>
+    </section>
+
+    <section id="contact" class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: contact@example.com</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Business Street, City, State 12345</p>
+    </section>
 </body>
 </html>
